@@ -35,6 +35,7 @@ int lentoken(char *str, char *delim)
  *
  * Return: The number of words contained within str.
  */
+
 int tokencounter(char *str, char *delim)
 {
 	int index, tokens = 0, len = 0;
