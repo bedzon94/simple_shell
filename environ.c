@@ -10,6 +10,7 @@ char **_getenv(const char *var);
  * Return: If an error occurs - NULL.
  *         O/w - a double pointer to the new copy.
  */
+
 char **_copy_env(void)
 {
 	char **new_environ;
