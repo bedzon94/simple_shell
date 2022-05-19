@@ -62,6 +62,7 @@ int tokencounter(char *str, char *delim)
  *
  * Return: A pointer to an array containing the tokenized words.
  */
+
 char **_strtok(char *line, char *delim)
 {
 	char **ptr;
