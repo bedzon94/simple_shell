@@ -10,6 +10,7 @@ lists_t *get_path_dir(char *path);
  * Return: If an error occurs or the command cannot be located - NULL.
  *         Otherwise - the full pathname of the command.
  */
+
 char *get_location(char *command)
 {
 	char **path, *temp;
