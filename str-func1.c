@@ -49,6 +49,7 @@ char *_strcpy(char *dest, const char *src)
  *
  * Return: Pointer to destination string.
  */
+
 char *_strcat(char *dest, const char *src)
 {
 	char *destTemp;
