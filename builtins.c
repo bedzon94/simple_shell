@@ -12,6 +12,7 @@ int shellie_help(char **args, char __attribute__((__unused__)) **front);
  *
  * Return: A function pointer to the corresponding builtin.
  */
+
 int (*get_builtin(char *command))(char **args, char **front)
 {
 	builtins_t funcs[] = {
