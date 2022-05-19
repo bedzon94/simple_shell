@@ -10,7 +10,6 @@ int proc_file_commands(char *file_path, int *exe_ret);
  *
  * Return: 127.
  */
-
 int cant_open(char *file_path)
 {
 	char *error, *hist_str;
