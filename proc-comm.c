@@ -51,6 +51,7 @@ int cant_open(char *file_path)
  *	   If malloc fails - -1.
  *	   Otherwise the return value of the last command ran.
  */
+
 int proc_file_commands(char *file_path, int *exe_ret)
 {
 	ssize_t file, b_read, i;
