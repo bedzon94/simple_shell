@@ -112,6 +112,7 @@ char *fill_path_dir(char *path)
  *
  * Return: A pointer to the initialized linked list.
  */
+
 lists_t *get_path_dir(char *path)
 {
 	int index;
