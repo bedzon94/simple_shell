@@ -12,6 +12,7 @@ void logical_ops(char *line, ssize_t *new_len);
  * Description: Spaces are inserted to separate ";", "||", and "&&".
  *              Replaces "#" with '\0'.
  */
+
 void handleline(char **line, ssize_t read)
 {
 	char *old_line, *new_line;
@@ -162,6 +163,7 @@ ssize_t get_new_len(char *line)
  * @line: A pointer to the character to check in the line.
  * @new_len: Pointer to new_len in get_new_len function.
  */
+
 void logical_ops(char *line, ssize_t *new_len)
 {
 	char previous, current, next;
