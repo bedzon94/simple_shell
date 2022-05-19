@@ -57,6 +57,7 @@ char *get_location(char *command)
  * Return: A copy of path with any leading/sandwiched/trailing colons replaced
  *	   with the current working directory.
  */
+
 char *fill_path_dir(char *path)
 {
 	int i, length = 0;
