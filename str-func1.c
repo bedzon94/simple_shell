@@ -31,6 +31,7 @@ int _strlen(const char *s)
  *
  * Return: Pointer to dest.
  */
+
 char *_strcpy(char *dest, const char *src)
 {
 	size_t i;
