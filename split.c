@@ -13,6 +13,7 @@ char **_strtok(char *line, char *delim);
  * Return: The delimiter index marking the end of
  *         the intitial token pointed to be str.
  */
+
 int lentoken(char *str, char *delim)
 {
 	int index = 0, len = 0;
