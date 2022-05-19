@@ -14,6 +14,7 @@ int check_args(char **args);
  * Return: If an error occurs - NULL.
  *         Otherwise - a pointer to the stored command.
  */
+
 char *get_args(char *line, int *exe_ret)
 {
 	size_t n = 0;
@@ -49,6 +50,7 @@ char *get_args(char *line, int *exe_ret)
  *
  * Return: The return value of the last executed command.
  */
+
 int call_args(char **args, char **front, int *exe_ret)
 {
 	int ret, index;
@@ -107,6 +109,7 @@ int call_args(char **args, char **front, int *exe_ret)
  *
  * Return: The return value of the last executed command.
  */
+
 int run_args(char **args, char **front, int *exe_ret)
 {
 	int ret, i;
@@ -142,6 +145,7 @@ int run_args(char **args, char **front, int *exe_ret)
  *         If the input cannot be tokenized - -1.
  *         O/w - The exit value of the last executed command.
  */
+
 int handle_args(int *exe_ret)
 {
 	int ret = 0, index;
@@ -188,6 +192,7 @@ int handle_args(int *exe_ret)
  * Return: If a ';', '&&', or '||' is placed at an invalid position - 2.
  *	   Otherwise - 0.
  */
+
 int check_args(char **args)
 {
 	size_t i;
