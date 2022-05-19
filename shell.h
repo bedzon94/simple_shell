@@ -28,6 +28,7 @@ int hist;
  * @dir: A directory path.
  * @next: A pointer to another struct list_s.
  */
+
 typedef struct lists_s
 {
 	char *dir;
@@ -39,6 +40,7 @@ typedef struct lists_s
  * @name: The name of the builtin command.
  * @f: A function pointer to the builtin command's function.
  */
+
 typedef struct builtins_s
 {
 	char *name;
@@ -51,6 +53,7 @@ typedef struct builtins_s
  * @value: The value of the alias.
  * @next: A pointer to another struct alias_s.
  */
+
 typedef struct aliases_s
 {
 	char *name;
