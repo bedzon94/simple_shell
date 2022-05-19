@@ -35,6 +35,7 @@ char *_strchr(char *s, char c)
  * Return: The number of bytes in s which
  *         consist only of bytes from accept.
  */
+
 int _strspn(char *s, char *accept)
 {
 	int bytes = 0;
