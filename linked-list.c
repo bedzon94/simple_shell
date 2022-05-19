@@ -102,6 +102,7 @@ void free_alias_list(aliases_t *head)
  * free_list - Frees a list_t linked list.
  * @head: The head of the list_t list.
  */
+
 void free_list(lists_t *head)
 {
 	lists_t *next;
