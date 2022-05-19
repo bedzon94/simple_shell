@@ -44,6 +44,7 @@ char *error_126(char **args)
  *
  * Return: The error string.
  */
+
 char *error_127(char **args)
 {
 	char *error, *hist_str;
