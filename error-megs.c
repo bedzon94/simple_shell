@@ -11,6 +11,7 @@ char *error_2_syntax(char **args);
  *
  * Return: The error string.
  */
+
 char *error_env(char **args)
 {
 	char *error, *hist_str;
