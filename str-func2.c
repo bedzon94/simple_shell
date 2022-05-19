@@ -65,6 +65,7 @@ int _strspn(char *s, char *accept)
  *         0 if s1 = s2
  *         Negative byte difference if s1 < s2
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	while (*s1 && *s2 && *s1 == *s2)
