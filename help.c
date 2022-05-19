@@ -10,6 +10,7 @@ void variable_replacement(char **args, int *exe_ret);
  * @args: A null-terminated double pointer containing commands/arguments.
  * @front: A double pointer to the beginning of args.
  */
+
 void free_args(char **args, char **front)
 {
 	size_t i;
@@ -29,6 +30,7 @@ void free_args(char **args, char **front)
  *
  * Return: The current process ID or NULL on failure.
  */
+
 char *get_pid(void)
 {
 	size_t i = 0;
@@ -66,6 +68,7 @@ char *get_pid(void)
  *
  * Description: Variables are stored in the format VARIABLE=VALUE.
  */
+
 char *get_env_value(char *beginning, int len)
 {
 	char **var_addr;
@@ -102,6 +105,7 @@ char *get_env_value(char *beginning, int len)
  *              of the last executed program, and envrionmental variables
  *              preceded by $ with their corresponding value.
  */
+
 void variable_replacer(char **line, int *exe_ret)
 {
 	int j, k = 0, len;
