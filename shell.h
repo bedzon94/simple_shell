@@ -68,9 +68,9 @@ char *check_path(char *);
 void (*get_func(char *))(char **);
 char *_getenv(char *);
 
-void quit(char **);
 /*built_in*/
 void env(char **);
+void quit(char **);
 
 /*main*/
 extern void non_interactive(void);
