@@ -10,6 +10,7 @@ int create_error(char **args, int err);
  *
  * Return: The digit length.
  */
+
 int num_len(int num)
 {
 	unsigned int num1;
@@ -39,6 +40,7 @@ int num_len(int num)
  *
  * Return: The converted string.
  */
+
 char *_itoa(int num)
 {
 	char *buffer;
@@ -79,6 +81,7 @@ char *_itoa(int num)
  *
  * Return: The error value.
  */
+
 int create_error(char **args, int err)
 {
 	char *error;
